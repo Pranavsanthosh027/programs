@@ -1,0 +1,17 @@
+t1=(1,2,3)
+j=list(t1)
+print(j)
+s={1,2,3}
+s.add(4)
+print(s)
+x=14
+y=5
+print('x**y=',x**y)
+print(x==y)
+dict={'Name':'priya','Age':21,'place':'piravom'}
+d1={'Name':'maya','Age':22,'place':'piravom'}
+print("dict['NAME']:",dict['Name'])
+print(dict.values())
+print(dict.items())
+dict.update(d1)
+print(dict)
